@@ -1,0 +1,70 @@
+/* 
+! Mobile-First Approach
+- Variables
+- Reset
+- Base Styles
+- Utility Styles
+- Mobile Styles
+- Tablet Styles
+- Desktop Styles 
+*/
+
+/* Variables */
+:root {
+    /* Color Primary */
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+
+    /* Color Neutral */
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Utility Styles */
+.container {
+    width: min(86%, 1200px);
+    margin-inline: auto;
+  }
+
+/* Mobile Styles */
+.navbar{
+    padding-block: 1.2rem;
+}
+
+.main {
+    padding-block-end: 8rem;
+  }
