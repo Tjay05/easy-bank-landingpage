@@ -196,6 +196,7 @@ footer {
 
 ul.social__icons {
     display:flex;
+    margin-block-end: 4rem;
 }
 
 ul.social__icons li a i {
@@ -210,4 +211,21 @@ ul.social__icons li a i {
 .secondary-nav ul li a {
     margin-block-end: 1rem;
     font-size: 0.9rem;
+}
+
+.secondary-nav ul li.last a {
+    margin-block-end: 2rem;
+}
+
+.terms__privacy a {
+    background: linear-gradient(45deg, var(--lime-green), var(--bright-cyan));
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    margin-block-end: 2rem;
+}
+
+.terms__privacy p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 1rem;
 }
