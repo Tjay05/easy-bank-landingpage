@@ -129,21 +129,33 @@ ul {
     margin-block-end: 4rem;
 }
 
-.articles img {
+.asides img {
     width: 20%;
 }
 
-.articles h3 {
+.asides h3 {
     margin-block: 1.7rem 1rem;
     color: var(--dark-blue);
     font-weight: 400;
     font-size: 1.3rem;
 }
 
-.articles p {
+.asides p {
     color: var(--grayish-blue);
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 0.8rem;
     margin-block-end: 2.2rem;
+}
+
+/* Section - Info */
+.section-info {
+    background: var(--very-light-gray);
+    text-align: center;
+    padding-block: 6rem;
+}
+
+.section-info h2 {
+    font-size: 2.3rem;
+    margin-block-end: 1.5rem;
 }
