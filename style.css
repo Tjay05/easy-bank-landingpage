@@ -64,10 +64,6 @@ ul {
     padding-block: 1.2rem;
 }
 
-.main {
-    padding-block-end: 8rem;
-}
-
 /* Section - Intro */
 .section-intro {
     background: var(--very-light-gray);
@@ -188,4 +184,30 @@ ul {
     color: var(--dark-blue);
     font-weight: 400;
     font-size: 1.1rem;
+}
+
+/* Footer Styles*/
+footer {
+    background-color: var(--dark-blue);
+    text-align: center;
+    color: var(--white);
+    padding-block: 3rem;
+}
+
+ul.social__icons {
+    display:flex;
+}
+
+ul.social__icons li a i {
+    padding-inline: 0.5rem;
+    font-size: x-large;
+}
+
+.secondary-nav {
+    color: var(--very-light-gray);
+}
+
+.secondary-nav ul li a {
+    margin-block-end: 1rem;
+    font-size: 0.9rem;
 }
