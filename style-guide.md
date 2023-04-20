@@ -32,3 +32,5 @@ The designs were created to the following widths:
 
 - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
 - Weights: 300, 400, 700
+
+font-family: 'Public Sans', sans-serif;
