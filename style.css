@@ -55,7 +55,7 @@ ul {
 
 /* Utility Styles */
 .container {
-    width: min(80%, 1200px);
+    width: min(85%, 1200px);
     margin-inline: auto;
   }
 
@@ -151,11 +151,41 @@ ul {
 /* Section - Info */
 .section-info {
     background: var(--very-light-gray);
-    text-align: center;
     padding-block: 6rem;
 }
 
 .section-info h2 {
     font-size: 2.3rem;
+    text-align: center;
     margin-block-end: 1.5rem;
+}
+
+.articles article {
+    background: var(--white);
+    margin-block-start: 2rem;
+    border-radius: 10px;
+}
+
+.articles img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.articles .articles__content {
+    padding-block: 1.5rem;
+    margin-inline: 1rem;
+}
+
+.articles__content p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 0.84rem;
+    line-height: 1.2rem;
+}
+
+.articles__content h3 {
+    margin-block: 1rem;
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-size: 1.1rem;
 }
