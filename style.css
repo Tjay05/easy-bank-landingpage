@@ -64,6 +64,7 @@ ul {
   }
 
 /* Mobile Styles */
+/* Nabar Styles */
 .collapse {
     text-align: center;
     color: var(--dark-blue) !important;
@@ -276,13 +277,9 @@ footer .attribution {
         max-width: 1800px;
     }
 
-    .nav-item:hover {
-        border-bottom: 4px solid var(--lime-green);
-    }
-
     a.nav__link {
         display: inline-block;
-        background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
+        background: linear-gradient(147deg, var(--lime-green), var(--bright-cyan));
         color: var(--very-light-gray);
         padding: 0.8rem 2.5rem;
         border-radius: 49.59px;
@@ -340,11 +337,6 @@ footer .attribution {
         align-items: center;
     }
 
-    footer ul li:hover, .articles h3:hover {
-        cursor: pointer;
-        color: var(--lime-green);
-    }
-
     .footer__wrapper > * {
         flex: 1 1 auto;
     }
@@ -364,4 +356,25 @@ footer .attribution {
     .terms__privacy {
         text-align: right;
     }
+
+    /* Pseudo Element Styles */
+    a.nav__link:hover {
+        color: var(--white);
+        background: linear-gradient(15deg, var(--lime-green), var(--bright-cyan));
+    }
+
+    .nav-item:hover {
+        border-bottom: 4px solid var(--lime-green);
+    }
+
+    footer ul li:hover, .articles h3:hover {
+        cursor: pointer;
+        color: var(--lime-green);
+    }
+
+    .terms__privacy a:hover {
+        background: linear-gradient(270deg, var(--lime-green), var(--bright-cyan));
+        color: var(--white);
+    }
+
 }
