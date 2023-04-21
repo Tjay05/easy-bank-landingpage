@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://tjay05.github.io/easy-bank-landingpage/)
+- Live Site URL: [https://tjay05.github.io/easy-bank-landingpage/](https://tjay05.github.io/easy-bank-landingpage/)
 
 
 ### Built with
@@ -46,6 +46,5 @@ Responsibility on different screen sizes
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Tjay05](https://www.frontendmentor.io/profile/Tjay05)
 - Twitter - [@tjay_yy](https://www.twitter.com/tjay_yy)
