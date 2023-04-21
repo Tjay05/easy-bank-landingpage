@@ -10,6 +10,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
+  - [Continued development](#continued-development)
   - [Author]
 
 ## Overview
@@ -38,6 +39,10 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Bootsrap
+
+### Continued development
+
+Responsibility on different screen sizes
 
 ## Author
 
