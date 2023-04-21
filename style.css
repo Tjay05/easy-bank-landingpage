@@ -197,12 +197,13 @@ footer {
     background-color: var(--dark-blue);
     text-align: center;
     color: var(--white);
-    padding-block: 3rem;
+    padding-block-start: 3rem;
 }
 
 ul.social__icons {
     display:flex;
-    margin-block-end: 4rem;
+    margin-block: 2rem;
+    justify-content: center;
 }
 
 ul.social__icons li a i {
@@ -234,4 +235,13 @@ ul.social__icons li a i {
     color: var(--grayish-blue);
     font-weight: 400;
     font-size: 1rem;
+}
+
+footer .attribution { 
+    margin-block-start: 2rem;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
