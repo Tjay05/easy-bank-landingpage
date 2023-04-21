@@ -250,6 +250,15 @@ footer .attribution {
 
 /* Desktop Styles */
 @media (min-width: 1440px) {
+    /* Section - Info */
+    .section-info h2 {
+        text-align: left;
+    }
+    .articles {
+        display: flex;
+        gap: 1.7rem;
+    }
+
     /* Footer style */
     .footer__wrapper {
         display: flex;
