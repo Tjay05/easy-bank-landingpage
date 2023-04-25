@@ -11,7 +11,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-  - [Author]
+  - [Author](#author)
 
 ## Overview
 
