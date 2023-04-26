@@ -65,8 +65,20 @@ ul {
 
 /* Mobile Styles */
 /* Nabar Styles */
+.navbar-collapse{
+    position: absolute;
+    width: 90%;
+    top: 6rem;
+    padding-block: 2rem;
+    left: 5%;
+    background: var(--white);
+    border-radius: 10px;
+    margin-right: 20rem;
+}
+
 .collapse {
     text-align: center;
+    flex-grow: 0;
     color: var(--dark-blue) !important;
     font-weight: 400;font-size: 1.3rem;
 }
@@ -79,11 +91,9 @@ ul {
 }
 
 nav.navbar {
+    --bs-navbar-padding-x: unset;
+    --bs-navbar-padding-y: unset;
     background:var(--white);
-}
-
-.navbar {
-    padding-block: 1.2rem;
 }
 
 a.nav__link {
@@ -275,6 +285,12 @@ footer .attribution {
     body {
         overflow-x: hidden;
         max-width: 1440px;
+    }
+
+    .navbar-collapse {
+        position: unset;
+        width: 0%;
+        background: var(--white);
     }
 
     a.nav__link {
