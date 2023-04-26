@@ -21,6 +21,7 @@
 
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer ></script>
 </head>
 <body>
 <header>
@@ -30,6 +31,7 @@
         <img src="images/logo.svg" alt="">
       </a>
       <button
+      onclick="clicked()"
        class="navbar-toggler border-0" 
        type="button" 
        data-bs-toggle="collapse" 
@@ -65,7 +67,7 @@
 </header>
 <main class="main">
   <section class="section-intro">
-    <img src="images/image-mockups.png" alt="A group of mobile phones">
+    <img id="phoneS" src="images/image-mockups.png" alt="A group of mobile phones">
     <div class="section-intro__content container px-0">
       <h1>Next generation digital banking</h1>
       <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
