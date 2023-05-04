@@ -341,9 +341,16 @@ address {
     .section-info h2 {
         text-align: left;
     }
+
     .articles {
         display: flex;
         gap: 0.7rem;
+    }
+
+    .articles img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 50%;
     }
 
     /* Footer style */
