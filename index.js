@@ -1,12 +1,39 @@
-let imageOfPhones = document.getElementById("phoneS");
-let displayValue = imageOfPhones.style.display;
-function clicked(){
-    let nextGeneration = document.querySelector("h1")
-if(imageOfPhones.style.display === displayValue){
-    imageOfPhones.style.display = "none"
-   nextGeneration.style.marginTop = "20.7rem";
-}else{
-    imageOfPhones.style.display = displayValue;
-    nextGeneration.style.marginTop = "0rem"
+const hBurger = document.getElementById('hamburger');
+const menu = document.getElementById('menu');
+
+let displayValue = menu.style.display;
+let hBurderDisplayValue = hBurger.style.display;
+
+function mobileScreen() {
+	hBurger.addEventListener('click', () => {
+		if (menu.style.display === displayValue) {
+			menu.style.display = 'flex';
+			hBurger.setAttribute('src', 'images/icon-close.svg');
+		} else {
+			menu.style.display = displayValue;
+			hBurger.setAttribute('src', 'images/icon-hamburger.svg');
+		}
+	});
 }
-};
+
+function desktopScreen() {
+	// if (hBurger.style.display === hBurderDisplayValue) {
+	// 	hBurger.style.display = 'none'
+	// 	menu.style.display = displayValue;
+	// } else {
+	// 	hBurger.style.display = 'inline-block'
+	// }
+}
+
+function toggleScreen (e) {
+	if (e.matches) {
+		desktopScreen();
+	} else {
+		mobileScreen();
+	}
+}
+
+const mediaQuery = window.matchMedia('(min-width: 768px)');
+toggleScreen(mediaQuery);
+
+mediaQuery.addEventListener('change', toggleScreen)
