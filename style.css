@@ -82,6 +82,10 @@ nav.navbar ul#menu.nav-links {
 	padding-block: 2rem;
 }
 
+nav.navbar button#request {
+	display: none;
+}
+
 /* Section - Intro */
 .section-intro {
   background: var(--very-light-gray);
@@ -269,20 +273,31 @@ address {
 }
 
 /* Mini Lappy */
-@media (min-width: 990px) {
+@media (min-width: 768px) {
   body {
     overflow-x: hidden;
     max-width: 1440px;
   }
+	
+	nav.navbar img#hamburger {
+		display: none;
+	}
 
-  .navbar-collapse {
-    position: unset;
-    width: 0%;
-    background: var(--white);
-  }
+	nav.navbar ul#menu.nav-links {
+		box-shadow: unset;
+		position: unset;
+		border-radius: unset;
+		width: unset;
+		display: flex;
+		padding-block: unset;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+	}
 
-  a.nav__link {
+  nav.navbar button#request.nav__link {
     display: inline-block;
+		border: none;
     background: linear-gradient(147deg, var(--lime-green), var(--bright-cyan));
     color: var(--very-light-gray);
     padding: 0.8rem 2.5rem;

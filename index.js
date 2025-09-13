@@ -2,7 +2,6 @@ const hBurger = document.getElementById('hamburger');
 const menu = document.getElementById('menu');
 
 let displayValue = menu.style.display;
-let hBurderDisplayValue = hBurger.style.display;
 
 function mobileScreen() {
 	hBurger.addEventListener('click', () => {
@@ -17,12 +16,9 @@ function mobileScreen() {
 }
 
 function desktopScreen() {
-	// if (hBurger.style.display === hBurderDisplayValue) {
-	// 	hBurger.style.display = 'none'
-	// 	menu.style.display = displayValue;
-	// } else {
-	// 	hBurger.style.display = 'inline-block'
-	// }
+	if (menu.style.display === 'flex') {
+		menu.style.display = 'none';
+	}
 }
 
 function toggleScreen (e) {
